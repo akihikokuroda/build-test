@@ -181,6 +181,7 @@
                             <goal>install-server</goal>
                         </goals>
                     </execution>
+<!--
                     <execution>
                         <id>package-app</id>
                         <phase>package</phase>
@@ -188,6 +189,7 @@
                             <goal>package-server</goal>
                         </goals>
                     </execution>
+-->
                 </executions>
             </plugin>
             <!-- Plugin to run functional tests -->
